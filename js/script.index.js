@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
             el: '.slider-scrollbar'
         },
         autoplay: {
-            delay: 5000
+            delay: 10000
         }
     });
 });
