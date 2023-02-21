@@ -22,13 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (i == mediaFiles.length) {
                 isLoad = true;
                 isLoaded();
-                console.log('media')
             }
         });
     });
 
     window.onload = () => {
-        console.log('window')
         isLoad ? null : isLoaded();
     };
 });
